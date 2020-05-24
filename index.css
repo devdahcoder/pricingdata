@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Da+2|Roboto|Ubuntu|Ubuntu+Mono&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url("images/bg-top.svg");
+    background-repeat: no-repeat;
+    background-position: 20px 0px 0 5em;
+}
+
+/*header style */
+
+header {
+    text-align: center;
+    padding: 4em 3em;
+    width: 100%;
+}
+
+header .header-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .header-content p {
+    font-weight: 500;
+}
+
+
+header h1 {
+    margin: .5em 0 1em 0;
+    color: purple;
+    font-size: 2.2rem;
+
+}
+
+.toggle-btn {
+    width: 50px;
+    height: 29px;
+    background-color: grey;
+    border-radius: 30px;
+    padding: 5px;
+    transition: all 300ms ease-in-out;
+}
+
+
+.toggle-btn .inner-circle {
+    width: 18px;
+    height: 18px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: all 300ms ease-in-out;
+}
+
+.toggle-btn.active {
+    background-color: #00acee;
+}
+
+.toggle-btn.active .inner-circle {
+    margin-left: 21px;
+}
+
+
+
+/*main style*/
+
+main {
+    padding: 1em 0;
+}
+
+main .card {
+    width: 80%;
+    padding: 1.5em 2em;
+    border-radius: .3em;
+    box-shadow: 0 8px 6px -6px black;
+    background-color: white;
+    display: block;
+    margin: 2em auto;
+}
+
+main .purple-card {
+    background-color: rgb(192, 119, 192);
+    color: white;
+}
+
+main .card h2 {
+    margin: 1em 0 .3em 0;
+    font-weight: bold;
+}
+
+main .card h1 {
+    margin: .3em 0 .5em 0;
+    font-weight: 10em;
+    font-size: 5rem;
+}
+
+main .card p {
+    margin: 1em 0;
+    font-weight: bold;
+}
+
+main .card button {
+    margin: 1.5em 0;
+    width: 100%;
+    height: 45px;
+    border-radius: .4em;
+    outline: none;
+    border: none;
+    background: linear-gradient(to left, rgb(105, 105, 214), rgb(192, 119, 192));
+    color: white;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+main .card .learn-more2 {
+    margin: 1.5em 0;
+    width: 100%;
+    height: 45px;
+    border-radius: .4em;
+    outline: none;
+    border: none;
+    background: white;
+    color: rgb(192, 119, 192);
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (min-width: 500px) {
+    header {
+        text-align: center;
+        padding: 4em 6em;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 550px) {
+    main .card {
+        width: 60%;
+        padding: 1.5em 2em;
+        border-radius: .3em;
+        box-shadow: 0 8px 6px -6px black;
+        background-color: white;
+        display: block;
+        margin: 2em auto;
+    }
+
+    main .purple-card {
+        background-color: rgb(192, 119, 192);
+        color: white;
+    }
+
+    main .card h2 {
+        margin: 1em 0 .3em 0;
+        font-weight: bold;
+    }
+
+    main .card h1 {
+        margin: .3em 0 .5em 0;
+        font-weight: 10em;
+        font-size: 5rem;
+    }
+
+    main .card p {
+        margin: 1em 0;
+        font-weight: bold;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    main .card {
+        width: 60%;
+        padding: 1.5em 2em;
+        border-radius: .3em;
+        box-shadow: 0 8px 6px -6px black;
+        background-color: white;
+        display: block;
+        margin: 2em auto;
+    }
+
+    main .purple-card {
+        background-color: rgb(192, 119, 192);
+        color: white;
+    }
+
+    main .card h2 {
+        margin: 1em 0 .3em 0;
+        font-weight: bold;
+    }
+
+    main .card h1 {
+        margin: .3em 0 .5em 0;
+        font-weight: 10em;
+        font-size: 5rem;
+    }
+
+    main .card p {
+        margin: 1em 0;
+        font-weight: bold;
+    }
+}
+
+
+@media screen and (min-width: 700px) {
+    header {
+        text-align: center;
+        padding: 4em 10em;
+        width: 100%;
+    }
+
+    main .card {
+        width: 50%;
+        padding: 1.5em 2em;
+        border-radius: .3em;
+        box-shadow: 0 8px 6px -6px black;
+        background-color: white;
+        display: block;
+        margin: 2em auto;
+    }
+
+    main .purple-card {
+        background-color: rgb(192, 119, 192);
+        color: white;
+    }
+
+    main .card h2 {
+        margin: 1em 0 .3em 0;
+        font-weight: bold;
+    }
+
+    main .card h1 {
+        margin: .3em 0 .5em 0;
+        font-weight: 10em;
+        font-size: 5rem;
+    }
+
+    main .card p {
+        margin: 1em 0;
+        font-weight: bold;
+    }
+}
+
+
+@media screen and (min-width: 750px) {
+    header {
+        text-align: center;
+        padding: 4em 12em;
+        width: 100%;
+    }
+
+    main .card {
+        width: 50%;
+        padding: 1.5em 2em;
+        border-radius: .3em;
+        box-shadow: 0 8px 6px -6px black;
+        background-color: white;
+        display: block;
+        margin: 2em auto;
+    }
+
+    main .purple-card {
+        background-color: rgb(192, 119, 192);
+        color: white;
+    }
+
+    main .card h2 {
+        margin: 1em 0 .3em 0;
+        font-weight: bold;
+    }
+
+    main .card h1 {
+        margin: .3em 0 .5em 0;
+        font-weight: 10em;
+        font-size: 5rem;
+    }
+
+    main .card p {
+        margin: 1em 0;
+        font-weight: bold;
+    }
+}
+
+
+
+@media screen and (min-width: 920px) {
+    header {
+        text-align: center;
+        padding: 4em 14em;
+        width: 100%;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    main .card {
+        width: 100%;
+        padding: 1.5em 2em;
+        border-radius: .3em;
+        box-shadow: 0 8px 6px -6px black;
+        background-color: white;
+        display: block;
+        margin: 2em auto;
+    }
+
+    main .purple-card {
+        background-color: rgb(192, 119, 192);
+        color: white;
+    }
+
+    main .card h2 {
+        margin: 1em 0 .3em 0;
+        font-weight: bold;
+    }
+
+    main .card h1 {
+        margin: .3em 0 .5em 0;
+        font-weight: 10em;
+        font-size: 5rem;
+    }
+
+    main .card p {
+        margin: 1em 0;
+        font-weight: bold;
+    }
+}
+
+
+
+
+@media screen and (min-width: 1125px) {
+    header {
+        text-align: center;
+        padding: 4em 26em;
+        width: 100%;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    main .card {
+        width: 97%;
+        padding: 1.5em 2em;
+        border-radius: .3em;
+        box-shadow: 0 8px 6px -6px black;
+        background-color: white;
+        display: block;
+        margin: 2em auto;
+    }
+
+    main .purple-card {
+        background-color: rgb(192, 119, 192);
+        color: white;
+    }
+
+    main .card h2 {
+        margin: 1em 0 .3em 0;
+        font-weight: bold;
+    }
+
+    main .card h1 {
+        margin: .3em 0 .5em 0;
+        font-weight: 10em;
+        font-size: 5rem;
+    }
+
+    main .card p {
+        margin: 1em 0;
+        font-weight: bold;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
